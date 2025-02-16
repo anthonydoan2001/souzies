@@ -5,6 +5,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #7b1e00;
+  --secondary: #d89c40;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,5 +19,21 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-inknut);
+    font-weight: 700;
+  }
+
+  body {
+    font-family: var(--font-montserrat);
+    font-weight: 400;
+  }
 }
