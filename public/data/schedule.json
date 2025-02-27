@@ -1,0 +1,167 @@
+[
+  {
+    "week": 1,
+    "weekStartDate": "2025-02-24",
+    "schedules": [
+      {
+        "day": "Monday",
+        "date": "2025-02-24",
+        "location": "Downtown Food Park",
+        "hours": "11:00 AM - 3:00 PM",
+        "address": "123 Main Street"
+      },
+      {
+        "day": "Tuesday",
+        "date": "2025-02-25",
+        "location": "Tech District",
+        "hours": "11:00 AM - 7:00 PM",
+        "address": "456 Innovation Way"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2025-02-26",
+        "location": "University Campus",
+        "hours": "11:00 AM - 8:00 PM",
+        "address": "789 College Blvd"
+      },
+      {
+        "day": "Thursday",
+        "date": "2025-02-27",
+        "location": "Arts District",
+        "hours": "11:00 AM - 9:00 PM",
+        "address": "321 Creative Ave"
+      },
+      {
+        "day": "Friday",
+        "date": "2025-02-28",
+        "location": "Food Truck Friday",
+        "hours": "11:00 AM - 10:00 PM",
+        "address": "555 Festival Square"
+      },
+      {
+        "day": "Saturday",
+        "date": "2025-03-01",
+        "location": "Weekend Market",
+        "hours": "10:00 AM - 8:00 PM",
+        "address": "777 Market Street"
+      },
+      {
+        "day": "Sunday",
+        "date": "2025-03-02",
+        "location": "Park Plaza",
+        "hours": "11:00 AM - 6:00 PM",
+        "address": "999 Park Road"
+      }
+    ]
+  },
+  {
+    "week": 2,
+    "weekStartDate": "2025-03-03",
+    "schedules": [
+      {
+        "day": "Monday",
+        "date": "2025-03-03",
+        "location": "City Center",
+        "hours": "11:00 AM - 3:00 PM",
+        "address": "100 Center Street"
+      },
+      {
+        "day": "Tuesday",
+        "date": "2025-03-04",
+        "location": "Business District",
+        "hours": "11:00 AM - 7:00 PM",
+        "address": "200 Commerce Ave"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2025-03-05",
+        "location": "Community College",
+        "hours": "11:00 AM - 8:00 PM",
+        "address": "300 Education Lane"
+      },
+      {
+        "day": "Thursday",
+        "date": "2025-03-06",
+        "location": "Cultural Center",
+        "hours": "11:00 AM - 9:00 PM",
+        "address": "400 Culture Blvd"
+      },
+      {
+        "day": "Friday",
+        "date": "2025-03-07",
+        "location": "Food Festival",
+        "hours": "11:00 AM - 10:00 PM",
+        "address": "500 Festival Way"
+      },
+      {
+        "day": "Saturday",
+        "date": "2025-03-08",
+        "location": "Farmers Market",
+        "hours": "10:00 AM - 8:00 PM",
+        "address": "600 Market Road"
+      },
+      {
+        "day": "Sunday",
+        "date": "2025-03-09",
+        "location": "Central Park",
+        "hours": "11:00 AM - 6:00 PM",
+        "address": "700 Park Avenue"
+      }
+    ]
+  },
+  {
+    "week": 3,
+    "weekStartDate": "2025-03-10",
+    "schedules": [
+      {
+        "day": "Monday",
+        "date": "2025-03-10",
+        "location": "Uptown Plaza",
+        "hours": "11:00 AM - 3:00 PM",
+        "address": "800 Uptown Road"
+      },
+      {
+        "day": "Tuesday",
+        "date": "2025-03-11",
+        "location": "Innovation Hub",
+        "hours": "11:00 AM - 7:00 PM",
+        "address": "900 Tech Street"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2025-03-12",
+        "location": "State University",
+        "hours": "11:00 AM - 8:00 PM",
+        "address": "1000 University Drive"
+      },
+      {
+        "day": "Thursday",
+        "date": "2025-03-13",
+        "location": "Design District",
+        "hours": "11:00 AM - 9:00 PM",
+        "address": "1100 Design Way"
+      },
+      {
+        "day": "Friday",
+        "date": "2025-03-14",
+        "location": "Street Food Fair",
+        "hours": "11:00 AM - 10:00 PM",
+        "address": "1200 Fair Avenue"
+      },
+      {
+        "day": "Saturday",
+        "date": "2025-03-15",
+        "location": "Community Market",
+        "hours": "10:00 AM - 8:00 PM",
+        "address": "1300 Community Road"
+      },
+      {
+        "day": "Sunday",
+        "date": "2025-03-16",
+        "location": "Riverside Park",
+        "hours": "11:00 AM - 6:00 PM",
+        "address": "1400 Riverside Drive"
+      }
+    ]
+  }
+]
