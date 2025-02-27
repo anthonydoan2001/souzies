@@ -29,7 +29,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-[9999] transition-all duration-300 ${
         scrolled
           ? "py-2 md:py-3 bg-white shadow-md"
           : "py-3 md:py-5 bg-white/95"
@@ -117,14 +117,14 @@ export default function Navbar() {
 
           {/* Mobile Menu Button - improved with background and animation */}
           <button
-            className="lg:hidden text-secondary hover:text-primary transition-colors p-2 rounded-md bg-neutral-100 hover:bg-neutral-200"
+            className="lg:hidden text-secondary hover:text-primary transition-colors p-3 rounded-md bg-neutral-100 hover:bg-neutral-200 shadow-md"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           >
             {isMenuOpen ? (
-              <FaTimes className="h-5 w-5 transform rotate-90 animate-fadeIn" />
+              <FaTimes className="h-6 w-6 transform rotate-0 animate-fadeIn" />
             ) : (
-              <FaBars className="h-5 w-5" />
+              <FaBars className="h-6 w-6" />
             )}
           </button>
         </div>
@@ -132,7 +132,7 @@ export default function Navbar() {
 
       {/* Mobile Menu - improved with animations and better spacing */}
       <div
-        className={`lg:hidden fixed top-[calc(100%)] left-0 right-0 bg-white shadow-lg transition-all duration-300 max-h-[80vh] overflow-y-auto ${
+        className={`lg:hidden fixed top-[calc(100%)] left-0 right-0 bg-white shadow-lg transition-all duration-300 max-h-[80vh] overflow-y-auto z-[9998] ${
           isMenuOpen
             ? "translate-y-0 opacity-100"
             : "-translate-y-full opacity-0 pointer-events-none"
